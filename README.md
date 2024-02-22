@@ -2,7 +2,7 @@
 
 Official source code for paper 《FHDTIE: Fine-grained Heterogeneous Data Fusion for Tropical Cyclone Intensity Estimation》
 ### Overall Architecture of FHDTIE
-![image](https://github.com/xuguangning1218/TLS_MWP/blob/master/figure/model.png)
+![image](https://github.com/xuguangning1218/FHDTIE/blob/master/figure/model.png)
 
 ### Environment Installation
 ```

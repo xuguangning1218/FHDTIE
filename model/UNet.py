@@ -35,15 +35,16 @@ class UNetUp(nn.Module):
         return x
 
 class UNet(nn.Module):
-    def __init__(self, in_channels=3, out_channels=3):
+    def __init__(self, in_channels=3, out_channels=3, num_cluster=20):
         super(UNet, self).__init__()
-
+        self.num_cluster = num_cluster
         self.down1 = UNetDown(in_channels, 64, normalize=False)
         self.down2 = UNetDown(64, 128)
         self.down3 = UNetDown(128, 256)
         self.down4 = UNetDown(256, 512, dropout=0.5)
         self.down5 = UNetDown(512, 512, normalize=False, dropout=0.5)
 
+        # shape matcher
         self.reanalysis_feature_extractor = nn.Sequential(
             nn.Conv2d(in_channels=3, out_channels=32, kernel_size=5, stride=1, padding=0),
             nn.BatchNorm2d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True),
@@ -56,18 +57,20 @@ class UNet(nn.Module):
             nn.ReLU(inplace=True)
         )
 
+        # channel fuser
         self.fusion = nn.Sequential(
             nn.Conv2d(128*2, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False),
             nn.BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True),
             nn.ReLU(inplace=True)
         )
-        
+
+        # areas mapper
         self.generator_cnn = nn.Sequential(
             nn.Conv2d(in_channels=512, out_channels=128, kernel_size=3, padding=1),
             nn.BatchNorm2d(128),
             # nn.LeakyReLU(0.2),
-            nn.Conv2d(in_channels=128, out_channels=20, kernel_size=3, padding=1),
-            nn.BatchNorm2d(20),
+            nn.Conv2d(in_channels=128, out_channels=self.num_cluster, kernel_size=3, padding=1),
+            nn.BatchNorm2d(self.num_cluster),
             # nn.LeakyReLU(0.2),
         )
 

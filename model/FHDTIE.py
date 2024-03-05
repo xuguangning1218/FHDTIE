@@ -53,7 +53,7 @@ class FHDTIE(nn.Module):
         )
 
         # FCFI
-        self.unet = UNet(in_channels=self.in_channel, out_channels=self.num_cluster)
+        self.unet = UNet(in_channels=self.in_channel, out_channels=self.num_cluster, num_cluster=self.num_cluster)
         
 
         self.gcn1 = GCN(in_features=self.gcn_hidden1, out_features=self.gcn_hidden2)

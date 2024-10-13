@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```  
 ### Data Preparation 
 * Download the required GridSat dataset from NOAA official site through [here](<https://www.ncei.noaa.gov/products/gridded-geostationary-brightness-temperature> "here"), ERA5 Reanalysis data from ERA5 official sit through [here](<https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview> "here") and the tropical cyclone best track dataset from NOAA official site through [here](<https://www.ncdc.noaa.gov/ibtracs/>  "here"). 
-* Or you can download the preprocessing GridSat data through [here](<https://drive.google.com/drive/folders/1-4xPJxZEaofC1vJfKwK10Iwi9ocueFLZ?usp=sharing> "here") and the preprocessing ERA5 Reanalysis data through [here](<https://pan.baidu.com/s/1rizZvfEieYrnh5KiHXUzuw?pwd=yfcj> "here"). Note that the ibtracs tropical cyclone best track dataset is provided in folder ***data***.
+* Or you can download the preprocessing GridSat data through [here](<https://pan.baidu.com/s/1ADa_P7atzMJ7xvmFDfclCw?pwd=j5g8#list/path=%2FTFG-Net%2Fdata> "here") and the preprocessing ERA5 Reanalysis data through [here](<https://pan.baidu.com/s/1rizZvfEieYrnh5KiHXUzuw?pwd=yfcj> "here"). Note that the ibtracs tropical cyclone best track dataset is provided in folder ***data***.
 
 
 ###  Source Files Description

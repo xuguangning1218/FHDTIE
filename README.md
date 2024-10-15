@@ -33,3 +33,13 @@ requirements.txt # requirements package of the project
 setting.config # model configure
 Run.ipynb # jupyter visualized code for the model
 ```
+
+###  Citation
+If you think our work is helpful. Please kindly cite
+```
+@article{XU2024FHDTIE,
+title = {FHDTIE: Fine-grained Heterogeneous Data Fusion for Tropical Cyclone Intensity Estimation},
+journal = {IEEE Transactions on Geoscience and Remote Sensing},
+author = {Guangning Xu, Michael K. Ng, Yunming Ye, Bowen Zhang}
+}
+```

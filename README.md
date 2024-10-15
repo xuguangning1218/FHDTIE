@@ -8,12 +8,10 @@ Official source code for paper 《FHDTIE: Fine-grained Heterogeneous Data Fusion
 ```
 pip install -r requirements.txt
 ```  
-### Data Preparation 
+### Reproducibility 
 * Download the required GridSat dataset from NOAA official site through [here](<https://www.ncei.noaa.gov/products/gridded-geostationary-brightness-temperature> "here"), ERA5 Reanalysis data from ERA5 official sit through [here](<https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels?tab=overview> "here") and the tropical cyclone best track dataset from NOAA official site through [here](<https://www.ncdc.noaa.gov/ibtracs/>  "here"). 
 * Or you can download the preprocessing GridSat data through [here](<https://pan.baidu.com/s/1ADa_P7atzMJ7xvmFDfclCw?pwd=j5g8#list/path=%2FTFG-Net%2Fdata> "here") and the preprocessing ERA5 Reanalysis data through [here](<https://pan.baidu.com/s/1rizZvfEieYrnh5KiHXUzuw?pwd=yfcj#list/path=%2FFHDTIE%2Fdata> "here"). Note that the ibtracs tropical cyclone best track dataset is provided in folder ***data***.
-
-### Reproducibility
-To suppor the reproducibility, the saved model is provided in [here](<https://pan.baidu.com/s/1rizZvfEieYrnh5KiHXUzuw?pwd=yfcj#list/path=%2FFHDTIE%2Fmodel_saver&parentPath=%2F> "here").
+* The saved model is provided in [here](<https://pan.baidu.com/s/1rizZvfEieYrnh5KiHXUzuw?pwd=yfcj#list/path=%2FFHDTIE%2Fmodel_saver&parentPath=%2F> "here").
 
 
 ###  Source Files Description

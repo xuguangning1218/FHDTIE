@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 -- data # data folder
 	-- gridsat.img.min.max.npy # min and max value of the gridsat
-    -- gridsat.path.ibtr.windspeed.csv # ibtracs tropical cyclone best track dataset
+    	-- gridsat.path.ibtr.windspeed.csv # ibtracs tropical cyclone best track dataset
 	-- reanalysis.min_max.npy # min and max value of the era5
 -- data_loader # data loader folder
 	-- dataloader.py # dataloader in train, validate, test

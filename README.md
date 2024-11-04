@@ -18,6 +18,8 @@ pip install -r requirements.txt
 
 ```
 -- data # data folder
+	-- 01_process_kmeans.ipynb # code for kmean label generation
+	-- 02_process_kmeans_adj.ipynb # code for adjacency matrix generation
 	-- gridsat.img.min.max.npy # min and max value of the gridsat
     	-- gridsat.path.ibtr.windspeed.csv # ibtracs tropical cyclone best track dataset
 	-- reanalysis.min_max.npy # min and max value of the era5

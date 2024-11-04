@@ -41,8 +41,13 @@ Run.ipynb # jupyter visualized code for the model
 If you think our work is helpful. Please kindly cite
 ```
 @article{XU2024FHDTIE,
-title = {FHDTIE: Fine-grained Heterogeneous Data Fusion for Tropical Cyclone Intensity Estimation},
-journal = {IEEE Transactions on Geoscience and Remote Sensing},
-author = {Guangning Xu, Michael K. Ng, Yunming Ye, Bowen Zhang}
-}
+author={Xu, Guangning and Ng, Michael K. and Ye, Yunming and Zhang, Bowen},
+journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+title={FHDTIE: Fine-grained Heterogeneous Data Fusion for Tropical Cyclone Intensity Estimation}, 
+year={2024},
+volume={},
+number={},
+pages={1-1},
+keywords={Tropical cyclones;Estimation;Satellite images;Statistical analysis;Deep learning;Data models;Feature extraction;Shape;Data integration;Clustering methods;intensity estimation;tropical cyclone intensity;typhoon;fine-grained},
+doi={10.1109/TGRS.2024.3489674}}
 ```

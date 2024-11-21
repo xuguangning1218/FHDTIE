@@ -45,9 +45,9 @@ author={Xu, Guangning and Ng, Michael K. and Ye, Yunming and Zhang, Bowen},
 journal={IEEE Transactions on Geoscience and Remote Sensing}, 
 title={FHDTIE: Fine-grained Heterogeneous Data Fusion for Tropical Cyclone Intensity Estimation}, 
 year={2024},
-volume={},
+volume={62},
 number={},
-pages={1-1},
+pages={1-15},
 keywords={Tropical cyclones;Estimation;Satellite images;Statistical analysis;Deep learning;Data models;Feature extraction;Shape;Data integration;Clustering methods;intensity estimation;tropical cyclone intensity;typhoon;fine-grained},
 doi={10.1109/TGRS.2024.3489674}}
 ```
